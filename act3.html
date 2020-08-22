@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var names=[],agevalue=[],age,total;
+total=0
+names[0]=window.prompt("Enter name","");
+age=window.prompt("Enter age(-1 to quit)");
+agevalue[0]=parseInt(age);
+var x=1;
+
+
+while(age != "-1")
+{
+ total+=1;
+ names[x]=window.prompt("Enter name");
+ age=window.prompt("Enter age(-1 to quit)");
+ agevalue[x]=parseInt(grade);
+ x+=1;
+ document.write(names[0]);
+} 
+
+
+
+document.write("<table border=\"1\" width=\"25%\"><thead><tr><th>Name</th><th>Age</th></tr></thead><tbody>");
+for(var i =0;i<total;++i)
+ document.write("<tr><td>"+names[i]+"</td><td>"+agevalue[i]+"</td></tr>");
+
+document.write("</tbody></table>");
+</script>
+
+
+
+
+
+</body>
+
+</html>
