@@ -23,7 +23,7 @@ function sum(){
     num=parseInt(prompt("enter the number","2"));
     for(var i=1;i<=num;++i)
 	 total+=i;
-    alert("The total is "+total+"\nRefresh to start again.");
+    alert("The total is "+total+"\nRefresh to start again and again fromyomalp.");
 
 
 
