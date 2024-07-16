@@ -20,7 +20,7 @@ switch(inp)
 
 function sum(){
 	var num,total=0;
-    num=parseInt(prompt("enter the number","2"));
+    num=parseInt(prompt("enter the num","2"));
     for(var i=1;i<=num;++i)
 	 total+=i;
     alert("The total is "+total+"\nRefresh and then this a test to start again and again fromyomalp.");
